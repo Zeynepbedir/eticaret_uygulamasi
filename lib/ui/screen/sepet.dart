@@ -165,7 +165,6 @@ class _SepetState extends State<Sepet> {
           } else {
             return Center(
                 child: Column(
-              //mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Image.asset(
                   "images/bos_sepet.png",

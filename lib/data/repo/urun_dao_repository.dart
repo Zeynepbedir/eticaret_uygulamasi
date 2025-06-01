@@ -27,7 +27,7 @@ class UrunDaoRepository {
       "ad": ad,
       "resim": resim,
       "kategori": kategori,
-      "fiyat": fiyat, // FormData genelde string ister
+      "fiyat": fiyat,
       "marka": marka,
       "siparisAdeti": siparisAdeti,
       "kullaniciAdi": kullaniciAdi

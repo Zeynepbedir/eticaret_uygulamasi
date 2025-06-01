@@ -35,24 +35,7 @@ class _AnasayfaState extends State<Anasayfa> {
           ),
         ),
         centerTitle: true,
-        backgroundColor:
-            appBarRengi, // Varsayılan renk veya istediğin açık renk
-        /*actions: [
-          IconButton(
-            icon: Icon(Icons.shopping_cart),
-            color: Colors.white,
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => Sepet(),
-                ),
-              ).then((_) {
-                context.read<SepetCubit>().sepetGetir("zeynep_bedir");
-              });
-            },
-          ),
-        ],*/
+        backgroundColor: appBarRengi,
       ),
       body: Column(
         children: [
@@ -104,7 +87,7 @@ class _AnasayfaState extends State<Anasayfa> {
                                 style: TextStyle(
                                   fontSize: 18,
                                   fontWeight: FontWeight.bold,
-                                  color: fiyatRengi, // vurgulu fiyat
+                                  color: fiyatRengi,
                                 ),
                               ),
                             ],
